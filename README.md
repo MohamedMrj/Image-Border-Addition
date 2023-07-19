@@ -1,8 +1,19 @@
-Sure! Below is a sample README file for the code:
 
 # Image Border Addition
 
 This Python script allows you to add a white border to images, supporting various aspect ratios, and saves the processed images to a specified output directory. The script uses the Python Imaging Library (PIL) to handle image processing operations.
+
+# Example:
+
+## Before
+![ezgif com-webp-to-jpg](https://github.com/MohamedMrj/Image-Border-Addition/assets/113178714/a9ef2bf5-4640-4fa3-9d16-287de9dc19b7)
+![photo-1532463788086-56a492a0b34a](https://github.com/MohamedMrj/Image-Border-Addition/assets/113178714/05c96afb-ebb5-4ba4-b8f7-450ab04882f9)
+
+
+
+## After
+![ezgif com-webp-to-jpg_border](https://github.com/MohamedMrj/E-handel-hemsida/assets/113178714/f784d5b0-bf10-4efc-9188-4743057b60ef)
+![photo-1532463788086-56a492a0b34a_border](https://github.com/MohamedMrj/E-handel-hemsida/assets/113178714/2489f0f0-3bc8-4cf0-899e-26f8e8db7ab1)
 
 ## Requirements
 
