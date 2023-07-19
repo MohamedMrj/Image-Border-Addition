@@ -1,11 +1,5 @@
 import os
 from PIL import Image
-# Example usage
-image_folder = ''  # Specify the folder containing your images | example: "C:/Users/[User]/Desktop/Images"
-output_dir = ''  # Specify the output directory | example: "C:/Users/[User]/Desktop/ImagesWithLogo"
-target_size = (1080, 1080)  # Square (1:1 aspect ratio)
-aspect_ratio = "square"
-
 
 def add_border(image_path, output_path, target_size, aspect_ratio):
     image = Image.open(image_path)
@@ -59,6 +53,10 @@ def add_border_to_images(image_folder, output_dir, target_size, aspect_ratio):
             # Add white border to the image
             add_border(image_path, output_path, target_size, aspect_ratio)
 
-
+# Example usage
+image_folder = ''  # Specify the folder containing your images | example: "C:/Users/[User]/Desktop/Images"
+output_dir = ''  # Specify the output directory | example: "C:/Users/[User]/Desktop/ImagesWithLogo"
+target_size = (1080, 1080)  # Square (1:1 aspect ratio)
+aspect_ratio = "square"
 
 add_border_to_images(image_folder, output_dir, target_size, aspect_ratio)
